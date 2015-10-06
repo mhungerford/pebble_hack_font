@@ -1,0 +1,39 @@
+{
+  "versionLabel": "1.0", 
+  "uuid": "23656c5c-a618-41d5-b752-916701f124ce",
+  "appKeys": {
+    "dummy": 0
+  }, 
+  "companyName": "Matthew Hungerford", 
+  "watchapp": {
+    "watchface": true
+  }, 
+  "targetPlatforms": [
+    "basalt", "chalk"
+  ],
+  "longName": "hack font", 
+  "versionCode": 1, 
+  "shortName": "hack font", 
+  "resources": {
+    "media": [
+      {
+        "type": "font", 
+        "characterRegex": "[ :0-9]", 
+        "name": "FONT_HACK_TEXT_42", 
+        "file": "Hack_Text.ttf"
+      }, 
+      {
+        "type": "font", 
+        "characterRegex": "[ :0-9]", 
+        "name": "FONT_HACK_OUTLINE_42", 
+        "file": "Hack_Outline.ttf"
+      }, 
+      {
+        "type": "png", 
+        "name": "IMAGE_1", 
+        "file": "colorhex.png"
+      }
+    ]
+  },
+  "sdkVersion": "3"
+}
